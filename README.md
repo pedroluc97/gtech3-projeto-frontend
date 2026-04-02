@@ -29,4 +29,4 @@ Projeto frontend para o curso **Desenvolvedor Web Full Stack** do **Geração Te
    http://localhost:5173/
    ```
 5. Ou, alternativamente, accesse o site via o deploy:
-   [https://pedroluc97.github.io/gtech3-projeto-frontend/](https://pedroluc97.github.io/gtech3-projeto-frontend/)<
+   [https://pedroluc97.github.io/gtech3-projeto-frontend/](https://pedroluc97.github.io/gtech3-projeto-frontend/)
