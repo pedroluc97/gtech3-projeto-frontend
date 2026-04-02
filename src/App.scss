@@ -1,0 +1,100 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+$color_primary: #C92071;
+$color_secondary: #B5B6F2;
+$color_tertiary: #991956;
+$color_error: #EE4266;
+$color_success: #52CA76;
+$color_warning: #F6AA1C;
+$color_dark-gray: #1F1F1F;
+$color_dark-gray-2: #474747;
+$color_dark-gray-3: #666666;
+$color_light-gray: #8F8F8F;
+$color_light-gray-2: #CCCCCC;
+$color_light-gray-3: #F5F5F5;
+$color_white: #FFFFFF;
+
+.store-button-primary {color: $color_white; font-size: 14px; font-weight: bold; width: 114px; 
+    height: 40px; border-radius: 4px; background-color: $color_primary; border-color: $color_primary;}
+.store-button-primary:hover {background-color: $color_tertiary; border-color: $color_tertiary;}
+.store-button-primary:active {background-color: $color_tertiary; border-color: $color_tertiary;}
+.store-button-primary:focus {background-color: $color_tertiary; border-color: $color_tertiary;}
+
+.store-navlink:hover {color: $color_primary; text-decoration: underline;}
+.store-navlink:active {color: $color_primary; text-decoration: underline;}
+.store-navlink:focus {color: $color_primary; text-decoration: underline;}
+
+.store-navicon:hover {background: $color_primary;}
+.store-navicon:active {background: $color_primary;}
+.store-navicon:focus {background: $color_primary;}
+
+.store-background-header {background: $color_white;}
+.store-background-cart-number {background: $color_primary;}
+.store-background-search-bar {color: $color_dark-gray; background: $color_light-gray-3;}
+.store-background-footer {background: $color_dark-gray; color: $color_light-gray-3;}
+.store-background-content {background: $color_light-gray-3;}
+
+.store-carousel-title {font-size: 36px; font-weight: bold;}
+.store-carousel-subtitle {color: $color_primary; font-size: 20px; font-weight: bold;}
+.store-carousel-description {color: $color_dark-gray-3;}
+.store-carousel-image {border-radius: 10px; width: 80%; display: block; margin: auto; 
+    padding-bottom: 80px; transform: rotate(-25deg);}
+.store-carousel-indicator .carousel-indicators button {background: $color_light-gray; width: 16px; height: 16px; 
+    border: 1px solid transparent ; border-radius: 50%; position: relative; bottom: -50px;}
+.store-carousel-indicator .carousel-indicators .active {background: $color_primary;}
+
+.store-highlight-collection1-title {font-size: 28px; font-weight: bold;}
+.store-highlight-collection1-product {position: relative; transition: transform 250ms;}
+.store-highlight-collection1-product:hover {transform: scale(110%);}
+.store-highlight-collection1-product img {width: 100%; border: 1px solid transparent ; border-radius: 10px;}
+.store-highlight-collection1-product button {color: $color_primary; font-size: 16px; font-weight: bold; width: 114px; 
+    height: 40px; border-radius: 4px; background-color: $color_white; border-color: $color_white; 
+    position: absolute; bottom: 15%; left: 7.5%;}
+.store-highlight-collection1-product button:hover {color: $color_white; background-color: $color_primary; border-color: $color_primary;}
+.store-highlight-collection1-product button:active {color: $color_white; background-color: $color_primary; border-color: $color_primary;}
+.store-highlight-collection1-product button:focus {color: $color_white; background-color: $color_primary; border-color: $color_primary;}
+.store-highlight-collection1-discount {color: $color_dark-gray; background: $color_success; font-weight: bold; 
+    position: absolute; top: 7.5%; left: 7.5%;}
+
+.store-highlight-collection2-title {font-size: 28px; font-weight: bold; text-align: center;}
+.store-highlight-collection2-category {position: relative; transition: color 250ms, transform 250ms, filter 250ms; 
+    color: $color_dark-gray; transform: scale(80%); filter: grayscale(100%);}
+.store-highlight-collection2-category:hover {color: $color_primary; transform: scale(100%); filter: grayscale(0%);}
+.store-highlight-collection2-category img {width: 100%; border: 1px solid transparent ; border-radius: 10px; 
+    background: $color_white; border-radius: 50%;}
+.store-highlight-collection2-category img:hover {filter: grayscale(0%);}
+.store-highlight-collection2-category p {font-size: 18px; font-weight: bold; text-align: center; margin-top: 10px;}
+
+.store-highlight-collection3-title {font-size: 28px; font-weight: bold; text-align: center;}
+.store-highlight-collection3-product {background: $color_white; position: relative; transition: transform 250ms; padding: 20px; 
+    line-height: 1.0; border-radius: 10px;}
+.store-highlight-collection3-product:hover {transform: scale(110%);}
+.store-highlight-collection3-product img {width: 100%; transform: rotate(-20deg); margin-bottom: 40px;}
+.store-highlight-collection3-discount {color: $color_dark-gray; background: $color_success; font-weight: bold; 
+    position: absolute; top: 7.5%; left: 7.5%;}
+.store-highlight-collection3-category {color: $color_light-gray-2; font-weight: bold;}
+.store-highlight-collection3-name {color: $color_dark-gray; font-size: 20px; overflow: hidden; 
+    white-space: nowrap; text-overflow: ellipsis;}
+.store-highlight-collection3-price {color: $color_dark-gray; font-size: 20px;}
+.store-highlight-collection3-price span {color: $color_light-gray; font-size: 20px; text-decoration: line-through;}
+
+.store-highlight-collection4-offer {transition: transform 250ms;}
+.store-highlight-collection4-offer:hover {transform: scale(110%);}
+.store-highlight-collection4-offer-imagem {border-radius: 10px; width: 80%; display: block; margin: auto; 
+    padding-bottom: 80px;}
+
+.store-product-list-title {font-size: 20px;}
+.store-product-list-title span {font-weight: bold;}
+.store-product-list-content {font-size: 16px;}
+.store-product-list-content span {font-weight: bold;}
+.form-check .form-check-input:checked {background: $color_primary;}
+
+.store-product-view-route {color: $color_dark-gray-3; font-size: 18px; font-weight: bold;}
+.store-product-view-image {width: 100%; background: $color_secondary; border-radius: 10px; 
+    padding: 60px;}
+.store-product-view-name {font-size: 32px; font-weight: bold;}
+.store-product-view-details {color: $color_light-gray;}
+.store-product-view-price {color: $color_light-gray; font-size: 18px; font-weight: bold;}
+.store-product-view-price span {color: $color_dark-gray; font-size: 28px;}
+.store-product-view-description {color: $color_dark-gray-3; font-size: 18px;}
+.store-product-view-description span {font-weight: bold;}
